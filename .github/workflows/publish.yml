@@ -15,5 +15,5 @@ jobs:
           username: JovianKartiko
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: YOURNAME/publish-packages/game
+          repository: JovianKartiko/publish-packages/game
           tag_with_sha: true
