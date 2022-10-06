@@ -13,7 +13,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           username: JovianKartiko
-          password: 187781Zz
+          password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository: JovianKartiko/publish-packages/game
           tag_with_sha: true
