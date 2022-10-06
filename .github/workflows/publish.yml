@@ -12,8 +12,8 @@ jobs:
       - name: Build container
         uses: docker/build-push-action@v1
         with:
-          username: JovianKartiko
+          username: joviankartik0
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: JovianKartiko/publish-packages/game
+          repository: joviankartik0/publish-packages/game
           tag_with_sha: true
